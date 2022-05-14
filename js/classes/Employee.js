@@ -9,11 +9,11 @@ class Employee {
       return this.name
     }
 
-    addPay = (pay) => {
-      let totalPay = 0;
-      totalPay += pay;
-      return totalPay;
-    }
+    // addPay = (pay) => {
+    //   let totalPay = 0;
+    //   totalPay += pay;
+    //   return totalPay;
+    // }
 
   }
 
