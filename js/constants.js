@@ -26,8 +26,6 @@ export const weekday = ['MO', 'TU', 'WE', 'TH', 'FR']
 export const weekend = ['SA', 'SU']
 
 // Regular Expressions //
-const reShift = /^([0-9]{2}:[0-9]{2}-[0-9]{2}:[0-9]{2})$/
-const reWeekday = /^([A-Za-z]{2})$/
 export const reWeekdays = /(MO|TU|WE|TH|FR)/g
 export const reWeekends = /(SA|SU)/g
 export const regexDays = /(MO|TU|WE|TH|FR|SA|SU)/g

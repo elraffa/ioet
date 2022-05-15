@@ -61,3 +61,13 @@ ASTRID=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00
 OUTPUT:
 
 The amount to pay ASTRID is: 85 USD
+
+# Solution
+
+The solution was arrived in three main steps:
+
+1. Get the input data and parse it to organize it in a way it can be worked with. 
+2. Create classes for *Employee*, *Schedule* and *Shift* to separate different functions 
+3. Calculate total hours worked by each employee based on the results received by the *Schedule* and *Shift* classes.
+
+The code has been structured using SOLID principles and the concept of separation of concerns, dividing it into classes that have specific functions to make the code cleaner and more straightforward. The goal was to make it efficient and at the same time solve the problem successfully. 

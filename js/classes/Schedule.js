@@ -1,5 +1,6 @@
 import { regexDays, regexHours } from '../constants.js'
 
+// Get days, start hours and end hours from schedule
 class Schedule {
     constructor(schedule) {
       this.schedule = schedule

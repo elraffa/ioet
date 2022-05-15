@@ -1,7 +1,7 @@
 import { shiftsStart, shiftsEnd, rates, reWeekdays, reWeekends } from "../constants.js"
 import { convertTimeToNumber } from "../utils.js"
 
-
+// Shift class accepts name, day, startTime and endTime to get the specific shift, hours worked and pay 
 class Shift {
     constructor(name, day, startTime, endTime) {
       this.name = name;
@@ -42,19 +42,7 @@ class Shift {
             return pay;
         }
     }
-    
-    // getShift = () => {
-    //   if (this.startTime >= shiftsStart[0] && this.endTime <= shiftsEnd[0] ) {
-    //     console.log('shiftOne')
-    //     return 'shiftOne'
-    //   } else if (this.startTime >= shiftsStart[1] && this.endTime <= shiftsEnd[0] ) {
-    //     console.log('shiftTwo')
-    //     return 'shiftTwo'
-    //   } else if (this.startTime >= shiftsStart[2]  && this.endTime <= shiftsEnd[2] ) {
-    //     console.log('shiftThree')
-    //     return 'shiftThree'
-    //   }
-    // }
+
 } 
 
 export default Shift;
