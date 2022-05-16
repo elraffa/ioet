@@ -1,0 +1,27 @@
+{ 
+  "name": "ioet",
+  "description": "## Instructions",
+  "version": "1.0.0",
+  "main": "js/main.js",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elraffa/ioet.git"
+  },
+  "keywords": [
+    "\"ioet\"",
+    "\"salary",
+    "calculator\""
+  ],
+  "author": "Federico Ruffa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elraffa/ioet/issues"
+  },
+  "homepage": "https://github.com/elraffa/ioet#readme"
+}
