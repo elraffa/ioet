@@ -62,6 +62,14 @@ OUTPUT:
 
 The amount to pay ASTRID is: 85 USD
 
+# How to run locally
+
+To check the solution to this challenge:
+
+1. Clone the repo: `git clone https://github.com/elraffa/ioet.git`
+2. Open the downloaded folder and open the file `index.html` in your favorite browser.
+3. Follow the instructions on the browser.
+
 # Solution
 
 The solution was arrived in three main steps:
