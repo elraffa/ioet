@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>IOET Coding Challenge</h1>
-    <h2>Instructions</h2>
-    <ul>
-        <li>Use the Choose File button below to select the input file. File must be a .txt file with data from employees in the following format: RENE=MO10:00-12:00,TU10:00-12:00,TH01:00-03:00,SA14:00-18:00,SU20:00-21:00
-        </li>
-    </ul>
-    <div>        
-        <input type="file">
-        <div id="results"></div>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>IOET Coding Challenge</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>IOET Coding Challenge</h1>
+      </header>
 
+      <h2>Instructions</h2>
+      <ul>
+        <li>
+          Use the Choose File button below to select the input file.
+        </li>
+        <li>
+          File must be a .txt file with data from employees in the following
+          format:
+          <strong>
+            RENE=MO10:00-12:00,TU10:00-12:00,TH01:00-03:00,SA14:00-18:00,SU20:00-21:00
+          </strong>
+        </li>
+        <li>
+          Results should be printed below.
+        </li>
+      </ul>
+      <div>
+        <label for="file-upload" class="custom-input">
+          <input type="file" id="file-upload" />
+          Choose File
+        </label>
+
+        <div id="results"></div>
+      </div>
+      <footer> 
+          <p>2022 by Federico Ruffa</p>
+      </footer>
+    </main>
 
     <script type="module" src="./js/main.js"></script>
-</body>
+  </body>
 </html>

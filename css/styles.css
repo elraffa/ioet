@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+li {
+    margin-bottom: 0.6rem;
+}
+
+header {
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+input, input[type=file] {
+    display: none;
+}
+
+.custom-input {
+    padding: 6px 12px;
+    background: rgb(190, 190, 190);
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+.custom-input:hover {
+    background: rgb(148, 148, 148);
+}
+
+footer {
+    position:absolute;
+    width: 97%;
+    bottom:0;
+    height:60px; 
+    border-top: 1px solid rgb(190, 190, 190);
+    text-align: right;
+ }

@@ -1,5 +1,5 @@
 import { shiftsStart, shiftsEnd, rates, reWeekdays, reWeekends } from "../constants.js"
-import { convertTimeToNumber } from "../utils.js"
+import convertTimeToNumber from "../utils.js"
 
 // Shift class accepts name, day, startTime and endTime to get the specific shift, hours worked and pay 
 class Shift {
