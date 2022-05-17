@@ -69,6 +69,12 @@ To check the solution to this challenge:
 1. Clone the repo: `git clone https://github.com/elraffa/ioet.git`
 2. Open the downloaded folder and open the file `index.html` in your favorite browser.
 3. Follow the instructions in the browser.
+4. To run tests you should enable testing by running 
+  npm install
+and then 
+  npm run test.
+
+Notes: if you encounter problems with this method, you might need to run the app in a server due to CORS restrictions with local files. To do this you can simply add the Live Server extension on Visual Studio Code or a similar one on other IDEs and run the app in that way. If you have further problems pleas contact me.
 
 # Solution
 
