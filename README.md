@@ -1,6 +1,6 @@
-# IOET Coding Challenge
+## IOET Coding Challenge
 
-## Instructions
+# Instructions
 
 The company ACME offers their employees the flexibility to work the hours they want. They will pay for the hours worked based on the day of the week and time of day, according to the following table:
 
@@ -76,6 +76,16 @@ The solution was arrived in three main steps:
 
 1. Get the input data and parse it to organize it in a way it can be worked with. 
 2. Create classes for *Employee*, *Schedule* and *Shift* to separate different functions 
-3. Calculate total hours worked by each employee based on the results received by the *Schedule* and *Shift* classes.
+3. Calculate total hours worked by each employee based on the results received by the *Schedule* (to get days, start hours and end hours) and *Shift* classes (to get what shift the range of hours belongs to and what the pay per day is). 
+4. Total is computed by calculateTotal.js in the functions folder.
 
-The code has been structured using SOLID principles and the concept of separation of concerns, dividing it into classes that have specific functions to make the code cleaner and more straightforward. The goal was to make it efficient and at the same time solve the problem successfully. 
+The code has been structured using SOLID principles and the concept of separation of concerns, dividing it into classes that have specific functions to make the code cleaner and more straightforward.
+
+The goal was to make it efficient and at the same time solve the problem successfully. 
+
+# Notes
+
+- npm package manager was used to implement JEST testing. Babel is used to allow JEST to test with ES6 modules.
+- Basic styling is applied via css/style.css
+
+>**This challenge has been very insightful and fun to develop. I hope the solution meets the standards requested and am looking forward to your feedback.**

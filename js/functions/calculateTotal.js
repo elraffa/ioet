@@ -51,7 +51,8 @@ const calculateTotal = (lines) => {
         .toString()
         .replace(/,/g, '\n')}`
 
-      return employee.getName(), totalPay
+      console.log(totalPay)
+      return totalPay
     })
   }
 }

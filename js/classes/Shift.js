@@ -35,10 +35,10 @@ class Shift {
         let pay = 0;
         let rate = rates[this.getShift()]       
         if (this.day[0].match(reWeekdays)) {
-            let pay = rate['weekday'] * this.calculateHours();
+            pay = rate['weekday'] * this.calculateHours();
             return pay;
         } else if (this.day[0].match(reWeekends)) {
-            let pay = rate['weekend'] * this.calculateHours();
+            pay = rate['weekend'] * this.calculateHours();
             return pay;
         }
     }
