@@ -1,5 +1,5 @@
 import { shiftsStart, shiftsEnd, rates, reWeekdays, reWeekends } from "../constants.js"
-import { convertTimeToNumber } from "../utils.js"
+import convertTimeToNumber from "../utils.js"
 
 // Shift class accepts name, day, startTime and endTime to get the specific shift, hours worked and pay 
 class Shift {
@@ -35,10 +35,10 @@ class Shift {
         let pay = 0;
         let rate = rates[this.getShift()]       
         if (this.day[0].match(reWeekdays)) {
-            let pay = rate['weekday'] * this.calculateHours();
+            pay = rate['weekday'] * this.calculateHours();
             return pay;
         } else if (this.day[0].match(reWeekends)) {
-            let pay = rate['weekend'] * this.calculateHours();
+            pay = rate['weekend'] * this.calculateHours();
             return pay;
         }
     }

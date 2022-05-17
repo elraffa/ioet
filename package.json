@@ -1,0 +1,37 @@
+{
+  "name": "ioet",
+  "description": "## Instructions",
+  "version": "1.0.0",
+  "main": "js/main.js",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.1.0",
+    "install": "^0.13.0",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elraffa/ioet.git"
+  },
+  "keywords": [
+    "\"ioet\"",
+    "\"salary",
+    "calculator\""
+  ],
+  "author": "Federico Ruffa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elraffa/ioet/issues"
+  },
+  "homepage": "https://github.com/elraffa/ioet#readme",
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
