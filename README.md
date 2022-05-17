@@ -73,6 +73,8 @@ To check the solution to this challenge:
 
 >**Note: if you encounter problems with this method (such as no results when you Choose File), you might need to run the app in a server due to CORS restrictions with local files. To do this you can simply add the Live Server extension on Visual Studio Code or a similar one on other IDEs and run the app in that way. If you have further problems please [contact me](mailto:federicoruffa@gmail.com).**
 
+>Alternatively, you can visit [this site](https://6283a608268351396477b88d--shimmering-cannoli-eb73ec.netlify.app/) which will take you to this same project deployed in Netlify
+
 # Solution
 
 The solution was arrived in three main steps:

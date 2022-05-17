@@ -12,6 +12,8 @@ body {
 
 main {
     padding: 1rem;
+    max-width: 1280px;
+    margin: 0 auto;    
 }
 
 li {
@@ -40,7 +42,6 @@ input, input[type=file] {
 
 footer {
     position:absolute;
-    width: 97%;
     bottom:0;
     height:60px; 
     border-top: 1px solid rgb(190, 190, 190);
